@@ -1,0 +1,45 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #fff6f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #fcd6e3;
+    text-align: center;
+    padding: 1em;
+    border-bottom: 4px solid #f4a2c1;
+}
+header h1 {
+    color: #cc4d86;
+}
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #cc4d86;
+    font-weight: bold;
+}
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+footer {
+    background-color: #fcd6e3;
+    text-align: center;
+    padding: 1em;
+    margin-top: 2em;
+}
+.gallery {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gallery img {
+    border-radius: 10px;
+    box-shadow: 0 2px 5px #ccc;
+    width: 300px;
+    height: auto;
+}
